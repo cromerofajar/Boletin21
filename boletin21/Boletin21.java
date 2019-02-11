@@ -39,10 +39,10 @@ public class Boletin21 {
             case "Buscar uno": obx.buscarUno(libro);
                                break;
             case "Salir":System.exit(0);
-            default: opcion=JOptionPane.showInputDialog(null, "Opcion no valida\n introduzca otra seguir para volver al menu:");
+            default: opcion=JOptionPane.showInputDialog(null, "Opcion no valida\nDesea volver al menu?");
         
         }
-        }while(!"Salir".equals(opcion));
+        }while(!"No".equalsIgnoreCase(opcion));
         
     }
     
