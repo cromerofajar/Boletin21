@@ -18,7 +18,7 @@ public class Metodos {
         precio=PedirDatos.entero("Introduzca el precio");
         nlibros=PedirDatos.entero("Introduzca el numero de libros");
         Libros tomo=new Libros(titulo,autor,ISBN,precio,nlibros);
-        if(libro.isEmpty()){
+        if(libro.isEmpty()==true){
             libro.add(tomo);
         }
         else{
